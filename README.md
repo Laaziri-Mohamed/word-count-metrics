@@ -1,7 +1,7 @@
 # word-count-metrics
-# Python wordCount
+# Python wordCounc code
 
-## Configuration
+## configuration
 
 Installer [Spark](https://spark.apache.org/downloads.html)
 
@@ -16,8 +16,4 @@ spark-submit .\wordCount.py
 
 Le programme va analyser le fichier (sample.txt) et va enregistrer le résultat dans le dossier result
 
-## Terminal
-![Screen_cmd](screen_cmd.png)
 
-## Résultat du rdd
-![Result_wordCound](screen_result.png)
