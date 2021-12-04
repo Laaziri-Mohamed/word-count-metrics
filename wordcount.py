@@ -18,10 +18,10 @@ if __name__== '__main__':
                 .map(lambda word: (word, 1)) \
                 .reduceByKey(lambda a, b: a+b)
 
-    # Afficher le résultat          
+    # Affichage des résultats         
     for i in wordCounts.collect():
         print(i)
 
     # Exportation des resultats dans un fichier texte
     wordCounts.coalesce(1).saveAsTextFile("Resultat.txt")
-    # coalesce(1): partitionnement du rdd et répartition de la tâche parmis les coeurs (ici un seul coeur et 1 partition seulement)
+   
