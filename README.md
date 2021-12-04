@@ -1,2 +1,2 @@
-# work-count-metrics
+# word-count-metrics
 lot of work to do
