@@ -1,5 +1,5 @@
 # word-count-metrics
-# Python wordCounc code
+# Python wordCount code
 
 ## configuration
 
